@@ -1,7 +1,6 @@
 # Specification-Sensitivity Audit Protocol
 
-Code accompanying *"Where the Break Comes From: Specification Sensitivity in
-Automated Financial-Analytics Classification."*
+Code accompanying *"Same Data, Opposite Verdicts: Measuring Subsidy Dependence in the EU-China Electric Vehicle Dispute."*
 
 ## What this is
 
@@ -35,7 +34,7 @@ R/
   specification_audit.R   # the five core functions, fully documented
 examples/
   run_byd_example.R       # applies the protocol to the paper's BYD panel,
-                           # reproducing Tables 2-4 exactly
+                           # reproducing Tables 3-5 exactly
 outputs/                  # (empty; populated by running the example script)
 ```
 
@@ -53,8 +52,8 @@ the file can be independently checked on a small number of factors.
 Rscript examples/run_byd_example.R
 ```
 
-This prints the decomposition-integrity check, then Tables 2, 3, and 4 from
-the paper, computed directly from the Table 1 panel hardcoded in the script.
+This prints the decomposition-integrity check, then Tables 3, 4, and 5 from
+the paper, computed directly from the Table 2 panel hardcoded in the script.
 
 ## Applying the protocol to a different dataset
 
@@ -77,7 +76,7 @@ This code was developed and its output checked against an independent
 Python reimplementation of the same arithmetic; the R scripts themselves
 have not been executed in an R interpreter as part of preparing this
 repository, since none was available in the preparation environment. Anyone
-running `run_byd_example.R` should get output identical to Tables 2-4 in
+running `run_byd_example.R` should get output identical to Tables 3-5 in
 the paper; please open an issue if it does not.
 
 ## Citation
