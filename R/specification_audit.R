@@ -4,8 +4,7 @@
 # A portable audit protocol for attribution-based classification systems.
 #
 # This file implements the three specification-sensitivity checks described
-# in "Where the Break Comes From: Specification Sensitivity in Automated
-# Financial-Analytics Classification." None of the functions below are
+# in "Same Data, Opposite Verdicts: Measuring Subsidy Dependence in the EU-China Electric Vehicle Dispute." None of the functions below are
 # specific to BYD, to DuPont decomposition, or to finance: each takes a
 # generic panel (a data frame of factor values indexed by a time or unit
 # identifier) and a set of candidate specifications to test, and reports
@@ -44,7 +43,7 @@
 #   gran_result <- granularity_sensitivity(panel, factor_groups, candidate_splits)
 #
 # See examples/run_byd_example.R for a complete worked application that
-# reproduces Tables 2-4 of the paper from the published BYD panel.
+# reproduces Tables 3-5 of the paper from the published BYD panel.
 # =============================================================================
 
 
